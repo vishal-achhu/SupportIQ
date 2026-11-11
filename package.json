@@ -1,0 +1,8 @@
+{
+  "name":"supportiq-gateway",
+  "version":"1.0.0",
+  "private":true,
+  "scripts":{"build":"tsc","start":"node dist/server.js","dev":"tsx watch src/server.ts"},
+  "dependencies":{"express":"^4.21.2","cors":"^2.8.5","http-proxy-middleware":"^3.0.3"},
+  "devDependencies":{"typescript":"^5.7.2","tsx":"^4.19.2","@types/node":"^22.10.2","@types/express":"^5.0.0","@types/cors":"^2.8.17"}
+}
